@@ -6,7 +6,6 @@ int main(void){
 
   char str[256];
   char cnp[] = "-=";
-  char *tmp;
   char *name;
   char *mname;
 
@@ -25,7 +24,6 @@ int main(void){
 
     if(str[0] == 'I'){
 
-      tmp = strtok(str,"'");          
       name = strtok(NULL,"-");          
       mname = strtok(NULL,";");         
       mname += 1;                       
